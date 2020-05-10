@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Pré-visualizador de Border Radius</h1>
+        </header>
+        <div id="content"></div>
+        <form onchange="borderRadiusController.form_OnChange()">
+            <div id="lado">
+                <label>Top-Left:</label>
+                <input type="text" name="top-left" id="top-left" placeholder="Valor em %, em ou px">
+                <label>Top-Right:</label>
+                <input type="text" name="top-right" id="top-right" placeholder="Valor em %, em ou px">
+            </div>
+            <div id="lado">
+                <label>Bottom-Right:</label>
+                <input type="text" name="bottom-right" id="bottom-right" placeholder="Valor em %, em ou px">
+                <label>Bottom-Left:</label>
+                <input type="text" name="bottom-left" id="bottom-left" placeholder="Valor em %, em ou px">
+            </div>
+        </form>
+        <script src="js/BorderRadiusController.js"></script>
+        <script src="js/Manipulador.js"></script>
+        <script>
+            borderRadiusController = new BorderRadiusController();
+        </script>
+        <footer>&#169 2020 - <a href="https://linktr.ee/santosmatheusgr" target="blank">Matheus Gomes Roberto dos Santos</a></footer>
+    </body>
+</html>
