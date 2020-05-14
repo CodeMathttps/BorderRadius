@@ -12,6 +12,7 @@ body{
     align-content: center;
     text-align: center;
     color: #221F1F;
+    font-size: 14px;
 }
 
 label{
@@ -49,10 +50,9 @@ input{
 #content{
     display: inline-block;
     position: relative;
-    max-width: 300px;
-    max-height: 150px;
-    border: 150px solid;
-    border-color: #FFC09F #97D2FB #CBF0D2 #ECCBD9;
+    width: 20vw;
+    height: 20vw;
+    background-image: linear-gradient(to left,#FFC09F, #97D2FB, #CBF0D2, #ECCBD9);
     box-sizing: border-box;
 }
 
