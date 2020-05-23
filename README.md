@@ -1,4 +1,4 @@
-# Pré-vizualizador da propriedade border-radius
+# Pré-visualizador da propriedade border-radius
 
 ## Motivação
 
